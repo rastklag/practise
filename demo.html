@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            eleve1 = {
+                nom: "Jean",
+                notes: [15, 16, 18]
+            }
+
+            eleve2 = {
+                nom: "Marc",
+                notes: [5, 18, 20]
+            }
+
+            /*
+             Cette fonction prend deux élèves en entrées et renvoie
+             celui qui a la meilleur moyenne
+            */
+            var estMeilleur = function(eleve1, eleve2) {
+                var moyenneEleve1 = moyenne(eleve1.notes)
+                var moyenneEleve2 = moyenne(eleve2.notes)
+
+                if (moyenneEleve1 > moyenneEleve2) {
+                    return  eleve1.nom + " est meilleur que " + eleve2.nom + " avec " + moyenneEleve1 + " de moyenne"
+                }
+                else {
+                    return  eleve2.nom + " est meilleur que " + eleve1.nom + " avec " + moyenneEleve2 + " de moyenne"
+                }            
+            }
+
+
+            /*
+             Cette fonction prend en entrée un tableau de notes
+             et renvoie la moyenne de ces notes
+            */
+            var moyenne =  function(Tnotes) {
+                var moyenne, somme = 0
+                for(var i = 0; i < Tnotes.length; i++) {
+                    note = Tnotes[i]
+                    console.log(note)
+                    somme += note
+                    moyenne = somme / Tnotes.length
+                }
+                return moyenne
+            }
+
+    
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
