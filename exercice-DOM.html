@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Execice DOM</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid black;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+<script src="exercice-DOM.js"></script>
+<div>
+    But : quand l'utilisateur sélectionne un filtre, le tableau doit n'afficher que les lignes correspondant au
+    filtre.
+</div>
+<select id="filter-categ">
+    <option value="" selected></option>
+    <option value="avion">Avion</option>
+    <option value="bateau">Bateau</option>
+    <option value="vélo">Vélo</option>
+</select>
+
+<table>
+    <thead>
+    <tr>
+        <th class="categ">Catégorie</th>
+        <th class="name">Nom</th>
+        <th class="URL">URL</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr><td class="categ">avion</td>
+        <td class="name">Boeing</td>
+        <td class="URL">https://fr.wikipedia.org/wiki/Boeing</td></tr>
+
+    <tr><td class="categ">avion</td>
+        <td class="name">Embraer</td>
+        <td class=URLdata">https://fr.wikipedia.org/wiki/Embraer</td></tr>
+
+    <tr><td class="categ">bateau</td>
+        <td class="name">Fairline</td>
+        <td class="URL">https://fr.topboats.com/astilleros/fairline</td></tr>
+
+    <tr><td class="categ">avion</td>
+        <td class="name">ATR</td>
+        <td class="URL">https://fr.wikipedia.org/wiki/ATR</td></tr>
+
+    <tr><td class="categ">bateau</td>
+        <td class="name">Zodiac</td>
+        <td class="URL">https://fr.topboats.com/astilleros/zodiac</td></tr>
+
+    <tr><td class="categ">bateau</td>
+        <td class="name">Bayliner</td>
+        <td class="URL">https://fr.topboats.com/astilleros/bayliner</td></tr>
+
+    <tr><td class="categ">bateau</td>
+        <td class="name">Princess</td>
+        <td class="URL">https://fr.topboats.com/astilleros/princess</td></tr>
+
+    <tr><td class="categ">avion</td>
+        <td class="name">Airbus</td>
+        <td class="URL">https://fr.wikipedia.org/wiki/Airbus</td></tr>
+
+    <tr><td class="categ">avion</td>
+        <td class="name">Bombardier</td>
+        <td class="URL">https://fr.wikipedia.org/wiki/Bombardier</td></tr>
+
+    <tr><td class="categ">avion</td>
+        <td class="name">Cessna</td>
+        <td class="URL">https://fr.wikipedia.org/wiki/Cessna</td></tr>
+    </tbody>
+</table>
+</body>
+</html>
