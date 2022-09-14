@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title> Exercice d'affichage DOM </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="consigne">
+			But de l'exercice : modifier 'script-exercice.js' pour ajouter, dans la div
+			"contenu", un tableau HTML qui présente les gares dont les données sont
+			disponibles dans l'objet `dataGares`.
+			<ul>
+				<li> Colonnes: "commune", "nom de la gare", "département", "géolocalisation"</li>
+				<li> Une ligne d'en-tête décrivant les colonnes (utiliser thead et th)</li>
+				<li> Une ligne par gare dans le tbody</li>
+				<li> Colonne 1 = "Commune"</li>
+				<li> Colonne 2 = "Gare" (champ 'libelle')</li>
+				<li> Colonne 3 = "Département"</li>
+				<li> Colonne 4 = "Géolocalisation" (champ 'coordinates' de l'objet 'geometry')</li>
+			</ul>
+			Bonus: mettre une classe sur chaque td. Bonus extra: grâce à cette classe, permettre
+			de choisir les colonnes à afficher.
+		</div>
+		<div class="contenu">
+		</div>
+		<script src="data-gares.js"></script>
+		<script src="script-exercice.js"></script>
+	</body>
+</html>
