@@ -27,3 +27,12 @@ canvas {
     font-weight: bold;
     padding: 2px 1em;
 }
+
+#introduction {
+    max-height: 230px;
+    overflow-y: auto;
+    padding: 20px;
+    border: solid 1px rosybrown;
+    font-size: 85%;
+    font-family: sans-serif;
+}
