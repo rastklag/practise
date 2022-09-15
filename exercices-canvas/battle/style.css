@@ -1,0 +1,29 @@
+
+#labyrinth-data {
+    display: none;
+}
+
+#draw-char {
+    width: 1em;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+#victoire {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(100vh / 2);
+    font-size: 300%;
+}
+
+.bloc {
+    font-family: monospace;
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 1em;
+}
